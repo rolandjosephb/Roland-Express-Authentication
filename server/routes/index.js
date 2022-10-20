@@ -6,6 +6,9 @@ let indexController = require('../controllers/index');
 /* GET home page. */
 router.get('/', indexController.displayHomePage);
 
+//* GET home page. */
+router.get('/', indexController.displayHomePage);
+
 /* GET home page. */
 router.get('/home', indexController.displayHomePage);
 
@@ -20,6 +23,10 @@ router.get('/services', indexController.displayServicesPage);
 
 /* GET Contact Us page. */
 router.get('/contact', indexController.displayContactPage);
+
+/* GET Project page. */
+router.get('/project', indexController.displayProjectPage);
+
 
 /* GET Route for displaying the Login page */
 router.get('/login', indexController.displayLoginPage);

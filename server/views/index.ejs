@@ -1,21 +1,51 @@
 <%- include partials/header.ejs %>
 
 <%- include partials/main_nav.ejs %>
-  
 
-  <!-- Main Content -->
-  <main class="container">
-    <div class="jumbotron">
-      <h1 class="display-4">Welcome to the <%= title %> page</h1>
-      
-    </div>
-  </main>
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <!--css SECTION-->
+  <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+
+  <link rel='stylesheet' href='/Content/app.css' />
+
+  <style>
+
+    div {text-align: center;}
+    p {text-align: center;}
+    h3,h4,h1,h2 {text-align: center;}
+    li {font-style: "font-family:verdana"}
+    body {
+
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+    
+    </style>
+</head>
+<body background="\Assets\images\background.jpg">
+
+   <h1>Welcome to: Home Page </h1><br>
+   <h2><i>My Mission statement:</h2> <h3>Finish my Study of Software Engineering then upgrade my advanced diploma for a Degree.<br> After that, Apply for a job connected to my course then after getting experience. <br>After that, I will either improved stay and rise above rank or look for a new career that will allow me to improve..</h3>
+   </i>
+      <!--Script Section -->
+      <script src="/jquery/dist/jquery.min.js"></script>
+      <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/Scripts/app.jss"></script>
+</body>
+</html>
+
+
+
 <%- include partials/bottom_nav.ejs %>  
 
 <%- include partials/footer.ejs %>
   
-
-
-
-
