@@ -1,5 +1,6 @@
+
 {
-  "name": "comp229-f2020-week6",
+  "name": "roland-baja",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -46,12 +47,12 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tsiliopoulos/COMP229-F2020-Lesson6.git"
+    "url": "git+https://github.com/rolandjosephb/Roland-Express-Authentication-Assignment-2.git"
   },
   "author": "Tom Tsiliopoulos",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tsiliopoulos/COMP229-F2020-Lesson6/issues"
+    "url": "https://github.com/rolandjosephb/Roland-Express-Authentication-Assignment-2/issues"
   },
-  "homepage": "https://github.com/tsiliopoulos/COMP229-F2020-Lesson6#readme"
+  "homepage": "https://github.com/rolandjosephb/Roland-Express-Authentication-Assignment-2#readme"
 }
